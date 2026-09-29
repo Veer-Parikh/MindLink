@@ -1,0 +1,17 @@
+{
+  "name": "mindlink",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Realtime collaborative code editor with a rewindable history of everything your team builds.",
+  "type": "module",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build --prefix client",
+    "start": "npm run build && npm start --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

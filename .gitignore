@@ -1,0 +1,10 @@
+node_modules
+.env
+server/data/
+client/dist/
+
+# Original hackathon code — superseded by server/ + client/. Kept on disk but not versioned
+# because it contains hardcoded credentials (an API key and a JWT) and .env files.
+backend/
+frontend/
+legacy-backup/
